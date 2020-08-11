@@ -18,15 +18,22 @@ const App = () =>  {
       </p>
       <br/>
       <h4>I design and build sites when free.</h4>
+      <br></br>
+      <h4>Tech Stack: </h4>
+      <ul className="tech-stack">
+          <li><box-icon name='react' type='logo' color='#4084f4' size="md" ></box-icon></li>
+          <li><box-icon name='javascript' type='logo' color='#4084f4'size="md" ></box-icon></li>
+          <li><box-icon name='bootstrap' type='logo' color='#4084f4'size="md" ></box-icon></li>
+      </ul>
       <div className="social">
         <br/>
         <a href="https://github.com/shashankbhat2"  rel="noopener noreferrer"  target="_blank">
-        <box-icon name='github' type='logo' color='#55acee' ></box-icon>
+        <box-icon name='github' type='logo' color='#55acee' size="md"  ></box-icon>
         </a>
         <a href="https://www.linkedin.com/in/shashank-bhat-1b9a89163/"  rel="noopener noreferrer"  target="_blank">
-        <box-icon name='linkedin-square' type='logo' color='#55acee' ></box-icon></a>
+        <box-icon name='linkedin-square' type='logo' color='#55acee' size="md"  ></box-icon></a>
         <a href="https://www.instagram.com/bhat.exe/"  rel="noopener noreferrer"  target="_blank">
-<box-icon name='instagram' type='logo' color='#55acee' ></box-icon>        </a>
+<box-icon name='instagram' type='logo' color='#55acee' size="md" ></box-icon>        </a>
       </div>
       <h6 className="version">Version 1.0.0</h6>
     </div>

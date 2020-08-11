@@ -33,14 +33,9 @@ body{
   color: #2F80ED;
 }
 
-.social h6{
-  color: #4a99ff;
-  font-size: 18px;
-  margin-top: 100px;
-}
 
 .social{
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .social a{
@@ -53,6 +48,17 @@ body{
   margin-top: 50px;
 }
 
+.tech-stack{
+  display: inline;
+}
+
+.tech-stack li{
+  display: inline-flex;
+}
+
+.tech-stack box-icon{
+  height: 60px;
+}
 @media screen and (max-width: 769px) and (max-width: 991px) {
   body{
     padding: 100px 10px
