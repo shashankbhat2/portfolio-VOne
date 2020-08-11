@@ -9,7 +9,7 @@
 body{
   font-family: Roboto Mono;
   font-weight: 500;
-  padding: 200px 100px
+  padding: 100px 100px
 }
 .main img{
   height: 100px;
@@ -22,9 +22,12 @@ body{
   color: #2F80ED;
   font-weight:200;
 }
-.main h4{
+.main p{
   color: #2F80ED;
   font-weight:200;
+}
+.main h4{
+  color: #2F80ED;
 }
 .main h5{
   color: #2F80ED;
@@ -46,8 +49,8 @@ body{
 }
 
 .version{
-  color: #1563CB;
-  margin-top: 100px;
+  color: #55acee;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 769px) and (max-width: 991px) {
